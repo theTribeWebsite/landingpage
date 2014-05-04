@@ -69,7 +69,7 @@ a, a:focus, a:hover, a:active {
 
 .top-nav {
 	padding-top: 6px;	
-	background-color: #1b253b;
+	background-color: #000000;
 	padding-bottom: 10px;
 }
 
@@ -86,13 +86,13 @@ footer a:hover,
 
 .main-nav-wrap {
 	height: 86px;
-	background-color: #212c43;
-	border-top: 1px solid #0d1629;
+	background-color: #000000;
+	border-top: 0px solid #0d1629;
 }
 
 .blue-line-wrap {
 	margin-top: 2px;
-	border-top: 1px solid #0d1629;
+	border-top: 1px solid #ffffff;
 	position: relative;
 }
 
@@ -290,8 +290,8 @@ ul#navigation ul {
 	font-family: "Oswald", sans-serif;
 	font-weight: 400;
 	font-size: 78px;
-	color: #162a43;
-	text-shadow: 0 1px 0 #dfe5e0;
+	color: #ffffff;
+	text-shadow: 0 0px 0 #dfe5e0;
 	text-transform: uppercase;
 	padding-bottom: 42px;
 }
@@ -1291,7 +1291,7 @@ li.description-active {
 						Begin Footer Widgets
 ---------------------------------------------------------------------------*/
 .footer-widget-wrap {
-	background-color: #212c43;
+	background-color: #000000;
 }
 
 .footer-widget {
@@ -1476,8 +1476,8 @@ input:focus::-webkit-input-placeholder{
 						Bgin Footer
 ---------------------------------------------------------------------------*/
 .footer-wrap {
-	background-color: #1b253b;
-	border-top: 1px solid #0d1629;
+	background-color: #000000;
+	border-top: 0px solid #0d1629;
 }
 
 .copyright p {
@@ -6314,7 +6314,7 @@ ul#navigation {
 }
 
 ul#navigation li{
-	border-bottom: 1px solid #1b253b;
+	border-bottom: 0px solid #1b253b;
 }
 
 ul#navigation > li {
@@ -6452,7 +6452,7 @@ ul#navigation ul{
 }
 
 .posts {
-	border-bottom: 1px solid #e3e8ec;
+	border-bottom: 0px solid #e3e8ec;
 	margin-bottom: 35px;
 	padding-bottom: 35px;
 }
