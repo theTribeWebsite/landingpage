@@ -92,13 +92,12 @@ footer a:hover,
 
 .blue-line-wrap {
 	margin-top: 0px;
-	border-top: -px solid #ffffff;
+	border-top: 0px solid #ffffff;
 	position: relative;
 }
 
 .blue-line-wrap:before {
 	content: '';
-	background:url(../img/blue-round.png) no-repeat;
 	display: block;
 	width: 16px;
 	height: 16px;
