@@ -5722,10 +5722,10 @@ ul.category-grid .image-capture > h5.simple-text-14 {
 /*---------------------------------------------------------------------------
 						Begin Media Queries
 ---------------------------------------------------------------------------*/
-@media (max-width: 1199px) {
-.promobox p {
-    margin-top: 3px;
-    max-width: 585px;
+@media (max-width: 400px) {
+@viewport {
+width: device-width;
+}
 }
 
 .bxslider-li-wrap h3 {
