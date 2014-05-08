@@ -77,13 +77,11 @@ function showElem(){
 
 });
 
-/* =================================
-===  MAILCHIMP                 ====
-=================================== */
+//MAILCHIMP                
 
 $('.mailchimp').ajaxChimp({
     callback: mailchimpCallback,
-    url: "http://thetribeapp.us8.list-manage1.com/subscribe/post?u=629af7f31dc33e62c3cb8354d&amp;id=484293bbb6" //Replace this with your own mailchimp post URL. Don't remove the "". Just paste the url inside "".  
+    url: "http://thetribeapp.us8.list-manage1.com/subscribe/post?u=629af7f31dc33e62c3cb8354d&amp;id=484293bbb6" 
 });
 
 function mailchimpCallback(resp) {
