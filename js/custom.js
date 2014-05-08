@@ -78,7 +78,6 @@ function showElem(){
 });
 
 //MAILCHIMP                
-
 $('.mailchimp').ajaxChimp({
     callback: mailchimpCallback,
     url: "http://thetribeapp.us8.list-manage1.com/subscribe/post?u=629af7f31dc33e62c3cb8354d&amp;id=484293bbb6" 
